@@ -1,0 +1,22 @@
+class bank{
+    String bankname(){ return abc;}
+}
+
+class sbi extends bank{
+    String bankname(){ return sbi;}
+}
+
+class icic extends bank{
+    String bankname(){return icic;}
+}
+
+
+
+
+class Polymorphism{
+    public static void main(String[] args) {
+        bank obj= new sbi();
+        obj.bankname;
+    }
+    
+}
